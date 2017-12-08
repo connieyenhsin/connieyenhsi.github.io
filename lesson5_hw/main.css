@@ -4,12 +4,67 @@
 
 .dark-background {
   background: #3b434b;
+
 }
 
 .site-container {
   max-width: 1140px;
 
+
   /* 水平置中這個元素 */
   margin-left: auto;
   margin-right: auto;
+}
+
+.site-container-footer {
+    max-width: 1140px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-footer{
+    max-width: 1140px;
+    height: 335px;
+    display: inline-block;
+    padding-left: 130px;
+
+}
+
+
+ul, li{
+    list-style-type:none;
+    line-height:30px
+}
+
+
+.field-1{
+    display: inline-block;
+    text-decoration: none;
+    color: #cacbcc;
+    width: 270px;
+    
+}
+
+
+.field-2{
+    display: inline-block;
+    text-decoration: none;
+    color: #cacbcc;
+    width: 325px;
+    
+}
+
+.field-3{
+    display: inline-block;
+    text-decoration: none;
+    color: #cacbcc;
+    width: 200px;
+    text-align: right;
+    
+}
+
+.copyright{
+    color: #666666;
+    text-align: left;
 }
