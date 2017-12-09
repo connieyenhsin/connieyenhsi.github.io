@@ -18,11 +18,19 @@
 
 .site-container-top {
     max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
     height: 90px;
     padding-top:30px;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#horizontal ul ,li {
+    display:inline;
+    list-style:none;
+    float:left;
+    padding-right:15px;
+    
+}
   
 
   .site-container-01 {
@@ -56,7 +64,8 @@
 
 .try-now{
     display: inline-block;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -74,7 +83,6 @@
 
 
 
-
 .main-footer{
     max-width: 1140px;
     height: 335px;
@@ -89,17 +97,23 @@
 
 
 
-ul, li{
+#field ul, li{
     list-style-type:none;
     line-height:80px
-    padding-left: 0;
+    padding-left:0;
 
 }
 
-
-.field-1{
+.field{
     display: inline-block;
     text-decoration: none;
+    color: #cacbcc;
+    
+}
+
+.field-1{
+    text-decoration: none;
+    display: inline-block;
     color: #cacbcc;
     width: 255px;
     text-align: left;
