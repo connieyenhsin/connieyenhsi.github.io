@@ -33,15 +33,13 @@
 }
   
 
-  .site-container-01 {
+.site-container-01 {
     background-image: url(https://s3-ap-southeast-1.amazonaws.com/static.shoplineapp.com/web/v7/index-hero-bg.jpg);
     background-position: center top;
     background-size: cover;
-    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
     height: 380px;
-
 
   }
 
@@ -64,10 +62,97 @@
 
 .try-now{
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    text-decoration: none;
+    color: #FFF;
 
 }
+
+
+.site-container-02 {
+    
+        height: 651px;
+        padding-left: 60.469px;
+        padding-right: 60.469px;
+        border-bottom: 1px solid rgb(78, 77, 77);
+
+      }
+
+
+.site-container-03 {
+    
+        height: 638px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-bottom: 1px solid rgb(78, 77, 77);
+
+      }
+
+
+.allplans {
+    text-align: center;
+}
+
+
+.site-container-04 {
+
+    height: 601px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #F6F6F6;
+  }
+
+.faq{
+    text-align: center;
+}
+
+.site-container-05 {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 220px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+.start-now{
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    padding-top: 50px;
+
+}
+
+
+.start-now-small{
+    font-size: 15px;
+    text-align: center;
+    color: #00bbcc;
+}
+
+
+.site-container-06 {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 348px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
+
+
+.partner{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.partner-logo{
+    display: inline-block;
+    width:352.5px ;
+}
+
 
 
 .site-container-footer {
@@ -91,11 +176,17 @@
 }
 
 .sponsors-logo{
-    padding-left: 15px;
     display: inline-block;
+    
 }
 
+#sponsors-logo ul, li{
+    display:inline;
+    list-style:none;
+    float:left;
 
+
+}
 
 #field ul, li{
     list-style-type:none;
