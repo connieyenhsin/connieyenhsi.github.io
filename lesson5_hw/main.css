@@ -161,27 +161,32 @@
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    line-height: 200px;
+    padding: 30px;
     text-align: center;
     text-decoration: none;
 }
 
 
+.footerfooter{
+    max-width: 1440px;
+    height: 335px;
+
+}
 
 .main-footer{
-    max-width: 1140px;
-    height: 335px;
+    max-width: 1440px;
+    height: 229px;
+    padding-top: 25px;
+    
+}
+
+.sponsors-logo a{
     display: inline-block;
     
 }
 
-.sponsors-logo{
-    display: inline-block;
-    
-}
-
-#sponsors-logo ul,
-#sponsors-logo li{
+.sponsors-logo ul,
+.sponsors-logo li{
     display:inline;
     list-style:none;
     float:left;
@@ -189,7 +194,9 @@
 
 }
 
-#field ul, li{
+
+.field ul,
+.field li{
     list-style-type:none;
     line-height:80px;
     padding-left:0;
@@ -198,41 +205,55 @@
 
 .field{
     display: inline-block;
-    text-decoration: none;
-    color: #cacbcc;
-    
+    margin: 135px;
 }
 
 .field-1{
-    text-decoration: none;
     display: inline-block;
-    
-    width: 255px;
+    width: 285px;
+    height: 148px;
     text-align: left;
+    padding: 15px;
 }
 
 .field-1 a {
     color: #cacbcc;
+    text-decoration: none;
+
 }
 
 
 .field-2{
     display: inline-block;
-    text-decoration: none;
-    color: #cacbcc;
-    width: 255px;
+    width: 285px;
+    height: 148px;
+    padding: 15px;
     
+}
+
+
+.field-2 a {
+    color: #cacbcc;
+    text-decoration: none;
+
 }
 
 .field-3{
     display: inline-block;
-    text-decoration: none;
-    color: #cacbcc;
-    width: 540px;
+    width: 570px;
+    height: 148px;
+    padding: 15px;
     text-align: right;
-    float:right;
+    float: right;
     
 }
+
+.field-3 a {
+    color: #cacbcc;
+    text-decoration: none;
+
+}
+
 
 .copyright{
     color: #666666;
