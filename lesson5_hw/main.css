@@ -180,7 +180,8 @@
     
 }
 
-#sponsors-logo ul, li{
+#sponsors-logo ul,
+#sponsors-logo li{
     display:inline;
     list-style:none;
     float:left;
@@ -190,7 +191,7 @@
 
 #field ul, li{
     list-style-type:none;
-    line-height:80px
+    line-height:80px;
     padding-left:0;
 
 }
@@ -205,11 +206,13 @@
 .field-1{
     text-decoration: none;
     display: inline-block;
-    color: #cacbcc;
+    
     width: 255px;
     text-align: left;
-    
-      
+}
+
+.field-1 a {
+    color: #cacbcc;
 }
 
 
@@ -227,6 +230,7 @@
     color: #cacbcc;
     width: 540px;
     text-align: right;
+    float:right;
     
 }
 
