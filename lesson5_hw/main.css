@@ -31,10 +31,10 @@
 
 #horizontal ul ,
 #horizontal li {
-    display:inline;
-    list-style:none;
-    float:left;
-    padding-right:15px;
+    display: inline;
+    list-style: none;
+    float: left;
+    padding-right: 15px;
     
 }
   
@@ -76,22 +76,43 @@
 
 .site-container-02 {
     
-        height: 651px;
-        padding-left: 60.469px;
-        padding-right: 60.469px;
-        border-bottom: 1px solid rgb(78, 77, 77);
+    height: 651px;
+    padding-left: 60.469px;
+    padding-right: 60.469px;
+    border-bottom: 1px solid rgb(78, 77, 77);
 
-      }
+}
 
 
 .site-container-03 {
     
-        height: 638px;
-        padding-left: 8px;
-        padding-right: 8px;
-        border-bottom: 1px solid rgb(78, 77, 77);
+    height: 638px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: 1px solid rgb(78, 77, 77);
 
-      }
+}
+
+
+.container-03{
+    margin-left: 135px;
+    margin-right: 135px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 1154px;
+    height: 630px;
+
+}
+
+
+.container-0303{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 1154px;
+    height: 560px;
+
+}
+
 
 
 .allplans {
@@ -99,17 +120,97 @@
 }
 
 
-.site-container-04 {
+.container-03pics{
+    margin-top: 90px;
+    width: 1154px;
+    height: 416px;
 
+}
+
+
+.container-03pics-pic{
+    float: left;
+    width: 354.656px;
+    height: 128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 80px;
+
+}
+
+
+.site-container-04 {
+    background-color: #F6F6F6;
     height: 601px;
+    
+  }
+
+
+.container-04{
+    margin-left: 135px;
+    margin-right: 135px;
     padding-left: 8px;
     padding-right: 8px;
-    background-color: #F6F6F6;
-  }
+
+}
+
+h1 {
+    margin: 0px;
+}
+
+
+h4 {
+    margin: 0px;
+}
+
 
 .faq{
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+
+.row{
+    float: left;
+
+}
+
+
+.left{
+    width: 547px;
+    height: 210px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    float: left;
+}
+
+
+.right{
+    width: 547px;
+    height: 188px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    float: left;
+
+}
+
+
+.title{
+    padding-bottom: 22px;
+
+}
+
+
+.content   { 
+    color: #666666;
+    padding-bottom: 70px;
+}
+
+
+
 
 .site-container-05 {
     max-width: 1140px;
@@ -138,9 +239,9 @@
 
 
 .site-container-06 {
-    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     height: 348px;
     padding-left: 15px;
     padding-right: 15px;
@@ -149,16 +250,115 @@
 
 
 .partner{
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 
 }
 
 .partner-logo{
     display: inline-block;
-    width:352.5px ;
+    padding: 15px;
+
 }
 
+
+.seven{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.opay{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.ecpay{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.line{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.family{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.taishin{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.cetustek{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+
+.affiliates{
+    display: inline-block;
+    width: 352.5px;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
 
 
 .site-container-footer {
@@ -266,4 +466,5 @@
     text-align: left;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 30px;
 }
