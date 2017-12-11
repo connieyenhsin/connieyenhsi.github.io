@@ -7,6 +7,11 @@
   text-decoration: none;
 }
 
+.footer-background {
+  background-color: #2e3741;
+  text-decoration: none;
+}
+
 .site-container {
   max-width: 1140px;
 
@@ -24,7 +29,8 @@
     margin-right: auto;
 }
 
-#horizontal ul ,li {
+#horizontal ul ,
+#horizontal li {
     display:inline;
     list-style:none;
     float:left;
@@ -159,8 +165,6 @@
     max-width: 1140px;
     height: 150px;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
     padding: 30px;
     text-align: center;
     text-decoration: none;
@@ -170,19 +174,16 @@
 .footerfooter{
     max-width: 1440px;
     height: 335px;
-
 }
 
 .main-footer{
     max-width: 1440px;
     height: 229px;
     padding-top: 25px;
-    
 }
 
 .sponsors-logo a{
     display: inline-block;
-    
 }
 
 .sponsors-logo ul,
@@ -190,22 +191,24 @@
     display:inline;
     list-style:none;
     float:left;
-
-
+    
 }
 
 
 .field ul,
 .field li{
     list-style-type:none;
-    line-height:80px;
     padding-left:0;
-
+    margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 .field{
     display: inline-block;
-    margin: 135px;
+    width: 1170px;
+    height: 204px;    
+    margin-right: 135px;
+    margin-left: 135px;
 }
 
 .field-1{
@@ -213,13 +216,14 @@
     width: 285px;
     height: 148px;
     text-align: left;
-    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
 }
 
 .field-1 a {
     color: #cacbcc;
     text-decoration: none;
-
 }
 
 
@@ -227,8 +231,9 @@
     display: inline-block;
     width: 285px;
     height: 148px;
-    padding: 15px;
-    
+    padding-right: 15px;
+    padding-left: 15px;   
+    font-size: 14px;
 }
 
 
@@ -242,7 +247,9 @@
     display: inline-block;
     width: 570px;
     height: 148px;
-    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 14px;
     text-align: right;
     float: right;
     
@@ -251,12 +258,12 @@
 .field-3 a {
     color: #cacbcc;
     text-decoration: none;
-
 }
 
 
 .copyright{
     color: #666666;
     text-align: left;
-    padding-left: 130px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
