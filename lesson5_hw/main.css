@@ -2,15 +2,90 @@
   box-sizing: border-box;
 }
 
-.dark-background {
-  background: #3b434b;
-  text-decoration: none;
+.dark-background-nav{
+    background: #3b434b;
+    text-decoration: none;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    margin: 0 0 0 0px;
+    border: 1px solid transparent;
 }
 
-.footer-background {
-  background-color: #2e3741;
-  text-decoration: none;
+
+.site-container-top {
+    max-width: 1140px;
+    height: 985px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 134px;
+    margin-right: 134px;
 }
+
+
+.shoplinelogo{
+    display: inline-block;
+    top: 50%;
+    position: absolute;
+    margin-top: -14px;
+}
+
+
+
+#horizontal{
+    line-height: 90px;
+    display: inline-block;
+    font-size: 100%;
+}
+
+
+#horizontal ul ,
+#horizontal li {
+    display: inline;
+    list-style: none;
+    float: left;
+    padding-right: 15px;
+    
+}
+
+
+
+#horizontal a{
+    color: #cacbcc;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+
+
+
+.rightnow{
+
+}
+
+
+.homepage{
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    height: 61px;
+}
+
+
+
+.dark-background {
+    background: #3b434b;
+    text-decoration: none;
+}
+
+
+.footer-background {
+    background-color: #2e3741;
+    text-decoration: none;
+}
+
 
 .site-container {
   max-width: 1140px;
@@ -21,33 +96,16 @@
   margin-right: auto;
 }
 
-.site-container-top {
-    max-width: 1140px;
-    height: 90px;
-    padding-top:30px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#horizontal ul ,
-#horizontal li {
-    display: inline;
-    list-style: none;
-    float: left;
-    padding-right: 15px;
-    
-}
-  
 
 .site-container-01 {
     background-image: url(https://s3-ap-southeast-1.amazonaws.com/static.shoplineapp.com/web/v7/index-hero-bg.jpg);
     background-position: center top;
     background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-    height: 380px;
+    height:480px;
 
   }
+
 
 
 .all-plans{
@@ -263,22 +321,27 @@ h4 {
 
 }
 
+.partner-logo > a{
+    text-align: center;
+
+}
+
 
 .seven{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
     padding-right: 15px;
     padding-left: 15px;
-
 }
+
 
 
 .opay{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -290,7 +353,7 @@ h4 {
 
 .ecpay{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -302,7 +365,7 @@ h4 {
 
 .line{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -314,7 +377,7 @@ h4 {
 
 .family{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -326,7 +389,7 @@ h4 {
 
 .taishin{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -338,7 +401,7 @@ h4 {
 
 .cetustek{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -350,7 +413,7 @@ h4 {
 
 .affiliates{
     display: inline-block;
-    width: 352.5px;
+    width: 340px;
     height: 70px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -364,10 +427,10 @@ h4 {
 .site-container-footer {
     max-width: 1140px;
     height: 150px;
-    display: inline-block;
     padding: 30px;
     text-align: center;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 
@@ -382,8 +445,9 @@ h4 {
     padding-top: 25px;
 }
 
-.sponsors-logo a{
+.sponsors-logo > a{
     display: inline-block;
+    padding-right: 10px;
 }
 
 .sponsors-logo ul,
