@@ -7,7 +7,6 @@
     text-decoration: none;
     width: 100%;
     height: 90px;
-    position: fixed;
     margin: 0 0 0 0px;
     border: 1px solid transparent;
 }
@@ -25,7 +24,7 @@
 
 .shoplinelogo{
     display: inline-block;
-    top: 50%;
+    top: 13%;
     position: absolute;
     margin-top: -14px;
 }
@@ -111,7 +110,6 @@
 .all-plans{
     font-size: 36px;
     text-align: center;
-    margin-top: 90px;
     color: #fff;
 
 }
@@ -131,13 +129,116 @@
 
 }
 
-
-.site-container-02 {
-    
-    height: 651px;
-    padding-left: 60.469px;
-    padding-right: 60.469px;
+.site-container-02{
+    width: 1409px;
+    height: 3019;
     border-bottom: 1px solid rgb(78, 77, 77);
+
+}
+
+
+.site-container-02 .starter-summary, .brand-new .pro-summary{
+    border-radius: 5px;
+    border: 1px solid #dadfe1;
+    margin: initial;
+    background-color: white;
+    color: #337ab7;
+    padding-bottom: 19px;
+}
+
+
+.pricing .pricing-body.row {
+    background: #FFFFFF;
+    height: 651px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 59.172px;
+    padding-right: 59.172px;
+    border-top: 1px;
+    border-bottom: 1px;
+}
+
+
+.pricing-body{
+    border-top: 1px solid #cccccc;
+    padding: 40px 4.2% 60px 4.2%;
+    max-width: 100%;
+
+}
+
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+
+
+.ng-scope{
+
+}
+
+
+.pricing-summary{
+    width: 100%;
+    height: 340px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 34px;
+}
+
+
+.summary-container{
+    width: 1112px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 89.328px;
+    height: 0px;
+    
+}
+
+
+.starter-container{
+    width: 370.656px;
+    height: 483px;
+    padding-top: 30px;
+    
+
+}
+
+
+.starter-summary{
+    width: 368.656px;
+    height: 462px;
+    padding-top: 19px;
+    border: 1px;
+
+}
+
+
+.business-container{
+    width: 370.656px;
+    height: 550px;
+}
+
+
+.business-summary{
+    border-radius: 5px;
+    border: 1px solid #dadfe1;
+    margin: initial;
+    background-color: #33678c;
+    color: #fff;
+    padding-bottom: 21px;
+    height: 550px;
+}
+
+
+.pro-container{
+    width: 370.656px;
+    height: 483px;
+    padding-top: 30px;
 
 }
 
