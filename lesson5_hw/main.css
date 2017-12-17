@@ -25,7 +25,6 @@
 .shoplinelogo{
     display: inline-block;
     top: 13%;
-    position: absolute;
     margin-top: -14px;
 }
 
@@ -107,6 +106,7 @@
 
 
 
+
 .all-plans{
     font-size: 36px;
     text-align: center;
@@ -152,7 +152,7 @@
 }
 
 
-.site-container-02 .pricing-summary .col-md-4 .title {
+.site-container-02 .pricing-summary .col-md-4 .title000 {
     padding-top: 44px;
     font-size: 36px;
     line-height: 54px;
@@ -161,7 +161,7 @@
 }
 
 
-.site-container-02 .starter-summary .title{
+.site-container-02 .starter-summary .title000{
     background-color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -173,7 +173,7 @@
 }
 
 
-.pricing-summary .col-md-4 .title{
+.pricing-summary .col-md-4 .title000{
     padding-bottom: 2px;
 }
 
@@ -189,6 +189,7 @@
     font-size: 16px;
     line-height: 24px;
 }
+
 
 .pricing-summary .starter-summary .blurb, .pricing-summary .pro-summary .blurb{
     padding-bottom: 12px;
