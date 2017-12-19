@@ -133,7 +133,7 @@ a {
 
 
 
-  .site-container01 {
+.site-container01 {
     width: 1409px;
     margin-left: auto;
     margin-right: auto;
@@ -144,48 +144,64 @@ a {
   }
 
 
-.site-container01-1 { 
+.site-container01-1{ 
     margin-left: 119.5px;
     margin-right: 119.5px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 395px;
-
+    height: 390px;
   }
 
 
+
+
 .titles01{
+    text-align: center;
 
 }
 
-
-
 .all-plans{
-   
-
+    height: 150px;
     color: #fff;
     font-size: 36px;
     text-align: center;
-    margin-bottom: 10px !important;
     display: block;
-
-
+    line-height: 200px;
 }
 
 
-
-.all-plans-words{
-
-    margin-top: 200px;
-    padding-top: 200px;
-}
 
 .try30days{
-
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #adadad;
+    font-size: 26px;
+    line-height: -20px;
 }
 
 
 .trynow-bottom{
-
+    text-align: center;
+    margin-bottom: 150px;
 }
 
+
+
+.trynow-bottom-1{
+    background-color: #00bbcc;
+    border: 1px solid #00bbcc;
+    margin-bottom: 90px;
+    color: #FFF;
+    padding: 8px 35px !important;
+    font-size: 14px;
+    border-radius: 50px;
+    line-height: 100px;
+}
+
+
+
+.site-container02{
+    height: 651px;
+
+}
