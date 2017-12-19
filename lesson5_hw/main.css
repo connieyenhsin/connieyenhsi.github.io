@@ -96,129 +96,11 @@ a {
     text-decoration: none;
 }
 
-
-
-    /* 語言選單 */
-
-.dropdown {
-    position: relative;
-}
-
-
-.dropdown .btn {
-    padding: 6px;
-}
-
-.open>a {
-    outline: 0;
-}
-
-.btn {
-    border-radius: 2px;
-}
-
-.btn {
-    display: inline-block;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
+.langicon img{
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
 }
-
-
-.langicon {
-    margin-top: -3px;
-}
-
-
-.langicon img {
-    display: none;
-    max-width: 25px;
-}
-
-.langicon .lang-icon-active {
-    display: block !important;
-}
-
-.dropdown-menu {
-    line-height: 28px;
-}
-
-
-.dropdown-menu.pull-right {
-    right: -6px;
-}
-
-
-.open>.dropdown-menu {
-    display: block;
-}
-
-
-.dropdown-menu.pull-right {
-    right: 0;
-    left: auto;
-}
-
-
-.dropdown-menu {
-    position: absolute;
-    top: 80%;
-    z-index: 1000;
-    min-width: 120px;
-    list-style: none;
-    font-size: 12px;
-    background-color: #fff;
-    border-radius: 4px;
-    background-clip: padding-box;
-    text-align: left;
-}
-
-.dropdown-menu .corner {
-    position: absolute;
-    top: -20px;
-    right: 14px;
-    margin-left: 0;
-    width: 0;
-    height: 0;
-    border-color: transparent transparent #fff transparent;
-    border-width: 10px;
-    border-style: solid;
-}
-
-
-navtop li {
-    display: inline-block;
-    padding-left: 8px;
-    padding-right: 5px;
-}
-
-
-.dropdown-menu li a {
-    color: #666;
-    font-weight: 400;
-    font-size: 14px;
-    min-width: 170px;
-}
-
-
-.dropdown-menu>li>a {
-    display: block;
-    padding: 3px 20px;
-    clear: both;
-    line-height: 1.42857143;
-    white-space: nowrap;
-}
-
-    /* 語言選單 */
 
 
 .navtop li a.grey-login {
@@ -236,11 +118,9 @@ navtop li {
     transition: color 0.1s linear,background-color 0.1s ease-in-out,border-color 0.1s ease-in-out;
 }
 
-
     /* 往下開始main site-container01 */
 
 
-    
 
 
 .site-container {
@@ -253,4 +133,45 @@ navtop li {
 
 
 
+  .site-container01 {
+    width: 1409px;
+    margin-left: auto ;
+    margin-right: auto;
+    height: 395px;
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/static.shoplineapp.com/web/v7/index-hero-bg.jpg);
+    background-position: center top;
+    background-size: cover;
+  }
+
+
+.site-container01-1 {
+    width: 1409px;
+    margin-left: 119.5px ;
+    margin-right: 119.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 395px;
+
+  }
+
+
+.titles01{
+
+}
+
+
+
+.all-plans{
+
+}
+
+
+.try30days{
+
+}
+
+
+.trynow-bottom{
+
+}
 
