@@ -135,7 +135,7 @@ a {
 
   .site-container01 {
     width: 1409px;
-    margin-left: auto ;
+    margin-left: auto;
     margin-right: auto;
     height: 395px;
     background-image: url(https://s3-ap-southeast-1.amazonaws.com/static.shoplineapp.com/web/v7/index-hero-bg.jpg);
@@ -144,9 +144,8 @@ a {
   }
 
 
-.site-container01-1 {
-    width: 1409px;
-    margin-left: 119.5px ;
+.site-container01-1 { 
+    margin-left: 119.5px;
     margin-right: 119.5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -162,9 +161,24 @@ a {
 
 
 .all-plans{
+   
+
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 10px !important;
+    display: block;
+
 
 }
 
+
+
+.all-plans-words{
+
+    margin-top: 200px;
+    padding-top: 200px;
+}
 
 .try30days{
 
