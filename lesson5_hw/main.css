@@ -203,31 +203,44 @@ a {
 
 
 .basic{
+    padding-top: 30px;
+    display: inline-block;
 
 }
 
 
 .basic-summary{
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    display: inline-block;
 
 }
 
 
 .premium{
+    display: inline-block;
 
 }
 
 
 .premium-summary{
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    display: inline-block;
 
 }
 
 
 .advance{
-
+    padding-top: 30px;
+    display: inline-block;
 }
 
 
 .advance-summary{
+    border: 1px solid #dadfe1;
+    border-radius: 5px;
+    display: inline-block;
 
 }
 
@@ -238,6 +251,8 @@ a {
 
 
 .title02{
+    font-size: 36px;
+    display: block;
 
 }
 
@@ -247,12 +262,20 @@ a {
 }
 
 
+.plan-price-container{
+
+
+}
+
+
+
 .plan-price{
 
 }
 
 
 .currency{
+    display: inline-block;
 
 }
 
@@ -263,6 +286,7 @@ a {
 
 
 .month{
+    display: inline-block;
 
 }
 
