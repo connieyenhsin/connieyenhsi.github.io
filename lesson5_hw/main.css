@@ -42,9 +42,7 @@
     float: left !important;
 }
 
-.navtop {
-    top: 100%;
-}
+
 
 ul {
     list-style-type: none;
@@ -101,11 +99,7 @@ a {
     color: #FFF;
     padding: 8px 25px !important;
     border: 1px solid #fff;
-    transition: color 0.1s linear,background-color 0.1s ease-in-out,border-color 0.1s ease-in-out;
 }
-
-    /* 往下開始main site-container01 */
-
 
 
 .site-container {
@@ -115,6 +109,8 @@ a {
     margin-right: auto;
   }
 
+
+/* 往下開始main site-container01 */
 
 
 .site-container01 {
@@ -137,8 +133,6 @@ a {
   }
 
 
-
-
 .titles01{
     text-align: center;
 
@@ -152,7 +146,6 @@ a {
     display: block;
     line-height: 200px;
 }
-
 
 
 .try30days{
@@ -183,9 +176,87 @@ a {
     line-height: 100px;
 }
 
-
+/* 往下開始main site-container02 */
 
 .site-container02{
     height: 651px;
 
+}
+
+
+.table{
+
+}
+
+
+
+.row{
+
+}
+
+
+.summary-container{
+    width: 1112px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.basic{
+
+}
+
+
+.basic-summary{
+
+}
+
+
+.premium{
+
+}
+
+
+.premium-summary{
+
+}
+
+
+.advance{
+
+}
+
+
+.advance-summary{
+
+}
+
+
+.col-md-4{
+
+}
+
+
+.title02{
+
+}
+
+
+.title03{
+
+}
+
+
+.plan-price{
+
+}
+
+
+.currency{
+
+}
+
+
+.month{
+    
 }
