@@ -9,11 +9,9 @@
 
 
 .navbar{
-    height: 90px;
+    height: 79px;
     top: 0;
     width: 100%;
-    border: 1px solid transparent;
-
 } 
   
 
@@ -27,24 +25,16 @@
 }
 
 
-.inner{
-    display: block;
-    height: 90px;
-}
-
 
 .logo{
     display: inline-block;
-    top: 50%;
-    transform: translateY(150%);
-    
+    top: 100%;   
 }
 
 
 .logo img{
     width: 140px;
     vertical-align: middle;
-
 }
 
 
@@ -53,26 +43,25 @@
 }
 
 .navtop {
-    top: 50%;
-    transform: translateY(-20%);
+    top: 100%;
 }
+
+ul {
+    list-style-type: none;
+}
+
 
 ul.navtop {
     text-align: left;
-    list-style-type: none;
     padding: 0;
-    line-height: 90px;
     display: inline-block;
 }
+
 
 .pull-right{
 float: right !important;
 }
 
-
-ul {
-    list-style: none;
-}
 
 
 .navtop li .navtop-link {
@@ -80,7 +69,6 @@ ul {
     display: inline-block;
     font-weight: 400;
     font-size: 14px;
-    height: 61px;
 }
 
 
@@ -92,6 +80,8 @@ ul {
     padding-right: 15px;
 }
 
+
+
 a {
     text-decoration: none;
 }
@@ -102,10 +92,6 @@ a {
     vertical-align: middle;
 }
 
-
-.navtop li a.grey-login {
-    opacity: 1;
-}
 
 
 .grey-login:link, .grey-login:visited{
@@ -122,11 +108,9 @@ a {
 
 
 
-
 .site-container {
     max-width: 1140px;
-  
-    /* 水平置中這個元素 */
+     /* 水平置中這個元素 */
     margin-left: auto;
     margin-right: auto;
   }
