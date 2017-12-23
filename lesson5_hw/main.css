@@ -137,11 +137,12 @@
 /* 往下開始main site-container02 */
 
 .site-container02{
-    height: 630px;
+    height: 620px;
     padding-left: 55px;
     padding-right: 55px;
     padding-top: 40px;
     text-align: center;    
+    border-bottom: 1px solid #dadfe1
 }
 
 .basic{
@@ -321,3 +322,81 @@
     border-radius: 5px;
 }
 
+/* 往下開始main site-container03 */
+
+.site-container03{
+    height: 630px;
+    text-align: center;  
+}
+
+.all-plans-contain{
+    color: #666666;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 88px;
+}
+
+.image00{
+    display: inline-block;
+    width: 350px;
+    height: 128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+}
+
+.p-titles{
+    color: #666666;
+    font-size: 20px;
+}
+
+/* 往下開始main site-container04 */
+
+.site-container04{
+    height: 600px;
+    text-align: center;  
+    background-color: #F6F6F6;
+}
+
+.faq{
+    color: #333;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.faq-sections-outer{
+    margin-left: 110px;
+    margin-right: 110px;
+    
+}
+
+.faq-sections{
+    width: 590px;
+    height: 210px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    float: left;
+    text-align: left;
+}
+
+.faq-title{
+    color: #333;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.faq-content{
+    color: #666666;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-bottom: 70px;
+
+}
