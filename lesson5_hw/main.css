@@ -70,13 +70,6 @@
     border: 1px solid #00bbcc;
 }
 
-.site-container {
-    max-width: 1140px;
-     /* 水平置中這個元素 */
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /* 往下開始main site-container01 */
 
 .site-container01 {
@@ -425,7 +418,8 @@
 
 .form-email{
     width: 400px;
-    color: #fff;
+    height: 48px;
+    color: #333;
     font-size: 14px;
     text-decoration: none;
     text-align: center;  
@@ -437,6 +431,7 @@
 }
 
 .btn-email{
+    height: 48px;
     color: #fff;
     text-decoration: none;
     background-color: #00bbcc;
@@ -478,7 +473,6 @@
 
 .partner-logo-outer{
     padding: 0 30px 0 30px;
-
 }
 
 .partner-logo{
@@ -489,10 +483,79 @@
     width: 330px;
 }
 
-.partner-logo-img{
-
-}
-
 .partner-logo-img-tasihin{
     width: 258px;
+}
+
+/* 往下開始footer */
+
+.site-container-footer{
+    height: 485px;
+    background: #2e3741;
+}
+
+.sponsor-outer{
+    margin: 0 130px 0 130px;
+    padding: 50px 0 50px 0;
+}
+
+.sponsor{
+    display: inline-block;
+}
+
+.sponsor-img{
+    padding: 0 10px 0 10px;
+}
+
+.main-footer{
+    margin: 0 140px 20px 140px;
+}
+
+.field-1{
+    display: inline-block;      
+    text-align: left;
+    width: 280px;
+}
+
+.field-2{
+    display: inline-block;
+    text-align: left;
+    width: 270px;
+}
+
+.field-3{
+    display: inline-block;
+    text-align: right;
+    width: 560px;
+}
+
+.field-ul{
+    list-style: none;
+    padding-left: 0;
+    color: #fff;
+}
+
+
+.field-ul a{
+    text-decoration: none;
+    color: #cacbcc;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.field-ul a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+.field-li{
+    margin-bottom: 20px;
+}
+
+.copyright{
+    margin: 0 130px 0 130px;
+    color: #666666;
 }
