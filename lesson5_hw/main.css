@@ -159,6 +159,7 @@
     height: 520px;
     width: 370px;
     padding-top: 30px;
+    background-color: #33678c;
 }
 
 .advance{
@@ -176,10 +177,25 @@
     padding-bottom: 10px;
 }
 
+.title01-premium{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    color: #fff
+}
+
 .title02{
     font-weight: lighter;
     text-align: center;
     padding-bottom: 50px;
+}
+
+.title02-premium{
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #cee7fd;
 }
 
 .plan-price{
@@ -189,7 +205,18 @@
     margin-bottom: 10px;
 }
 
+.plan-price-premium{
+    color:#fff;
+    font-size: 45px;   
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .currency-month{
+    font-size: 20px;
+}
+
+.currency-month-premium{
     font-size: 20px;
 }
 
@@ -198,6 +225,14 @@
     font-size: 14px;
     font-weight: lighter;
     color: #777777;
+    text-align: center;
+}
+
+.yealy-paid-premium{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
     text-align: center;
 }
 
@@ -210,6 +245,15 @@
     font-weight: lighter;
 }
 
+.stars-premium{
+    list-style: none;
+    padding-left: 0;
+    color: #cee7fd;
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
 .stars-li{
     margin-bottom: 15px;
 }
@@ -217,7 +261,6 @@
 .signup-btn-outer{
     text-align: center;
     padding-top: 30px;
-
 }
 
 .signup-btn{
@@ -235,6 +278,21 @@
     border-radius: 5px;
 }
 
+.signup-btn-premium{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    margin-top: 15px
+    margin-bottom: 60px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #00bbcc;
+    border: 1px solid #00bbcc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
 .signup-btn:hover{
     margin-left: auto;
     margin-right: auto;
@@ -248,3 +306,18 @@
     padding: 15px;
     border-radius: 5px;
 }
+
+.signup-btn-premium:hover{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    background-color: #33678c;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
