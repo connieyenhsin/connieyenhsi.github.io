@@ -1,311 +1,250 @@
 *, *:before, *:after {
     box-sizing: border-box;
-  }
+}
   
+.dark-background {
+    background: #3b434b;
+}
 
-  .dark-background {
-    background: #2e3741;
-  }
-
+/* 往下開始nav */
 
 .navbar{
-    height: 79px;
-    top: 0;
-    width: 100%;
+    height: 90px;
 } 
   
-
-
 .container{
     max-width: 1140px;
     padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 118.5px;
-    margin-right: 118.5px;
+    margin-left: 120px;
+    margin-right:120px;
 }
-
-
 
 .logo{
-    display: inline-block;
-    top: 100%;   
+    line-height: 90px; 
 }
-
 
 .logo img{
     width: 140px;
-    vertical-align: middle;
 }
 
-
-.pull-left {
-    float: left !important;
-}
-
-
-
-ul {
-    list-style-type: none;
-}
-
-
-ul.navtop {
+.navtop {
+    float: right;
     text-align: left;
-    padding: 0;
-    display: inline-block;
+    line-height: 80px;  
 }
 
-
-.pull-right{
-float: right !important;
-}
-
-
-
-.navtop li .navtop-link {
+.navtop-link {
     color: #fff;
-    display: inline-block;
-    font-weight: 400;
     font-size: 14px;
-}
-
-
-.navtop ul ,
-.navtop li {
-    display: inline;
-    list-style: none;
-    float: left;
+    text-decoration: none;
     padding-right: 15px;
 }
 
+.navtop-link:hover{
+    /* 當滑鼠經過時，字顏色改變 */
+    color: rgb(202, 199, 199);  
+}
 
+.flag{
+    padding-right: 15px;
+}
 
-a {
+.flag img{
+    vertical-align: middle;
+    width: 25px;
+}
+
+.navtop-btn{
+    color: #fff;
+    font-size: 14px;
+    font-weight:lighter;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 6px 25px;
     text-decoration: none;
 }
 
-.langicon img{
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
+.navtop-btn:hover{
+    /* 當滑鼠經過時，背景顏色改變 */
+    background: #00bbcc;  
+    border: 1px solid #00bbcc;
 }
-
-
-
-.grey-login:link, .grey-login:visited{
-    font-size: 14px;
-    border-radius: 50px;
-    line-height: 20px;
-    color: #FFF;
-    padding: 8px 25px !important;
-    border: 1px solid #fff;
-}
-
 
 .site-container {
     max-width: 1140px;
      /* 水平置中這個元素 */
     margin-left: auto;
     margin-right: auto;
-  }
-
+}
 
 /* 往下開始main site-container01 */
 
-
 .site-container01 {
-    width: 1409px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    height: 395px;
-    background-image: url(https://s3-ap-southeast-1.amazonaws.com/static.shoplineapp.com/web/v7/index-hero-bg.jpg);
-    background-position: center top;
-    background-size: cover;
-  }
-
-
-.site-container01-1{ 
-    margin-left: 119.5px;
-    margin-right: 119.5px;
+    height: 390px;
     padding-left: 15px;
     padding-right: 15px;
-    height: 390px;
-  }
-
-
-.titles01{
-    text-align: center;
-
 }
 
 .all-plans{
-    height: 150px;
     color: #fff;
     font-size: 36px;
+    font-weight: lighter;
     text-align: center;
     display: block;
-    line-height: 200px;
+    line-height: 100px;
+    padding-top: 100px;
 }
 
-
 .try30days{
-    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     color: #adadad;
     font-size: 26px;
-    line-height: -20px;
+    font-weight: lighter;
 }
 
-
-.trynow-bottom{
+.trynow-btn-outer{
     text-align: center;
-    margin-bottom: 150px;
+    padding-top: 30px;
 }
 
-
-
-.trynow-bottom-1{
+.trynow-btn{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: lighter;
     background-color: #00bbcc;
     border: 1px solid #00bbcc;
-    margin-bottom: 90px;
-    color: #FFF;
-    padding: 8px 35px !important;
-    font-size: 14px;
+    padding: 6px 36px;
     border-radius: 50px;
-    line-height: 100px;
+}
+
+.trynow-btn:hover{
+    background-color: #3b434b;
+    border: 1px solid #fff;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 6px 36px;
+    border-radius: 50px;
 }
 
 /* 往下開始main site-container02 */
 
 .site-container02{
-    height: 700px;
-
+    height: 630px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 40px;
+    text-align: center;    
 }
-
-
-.table{
-
-}
-
-
-
-.row{
-
-}
-
-
-.summary-container{
-    width: 1112px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 .basic{
-    padding-top: 30px;
     display: inline-block;
-
-}
-
-
-.basic-summary{
     border: 1px solid #dadfe1;
     border-radius: 5px;
-    display: inline-block;
-
+    height: 460px;
+    width: 370px;
 }
-
 
 .premium{
     display: inline-block;
-
-}
-
-
-.premium-summary{
     border: 1px solid #dadfe1;
     border-radius: 5px;
-    display: inline-block;
-
+    height: 520px;
+    width: 370px;
+    padding-top: 30px;
 }
-
 
 .advance{
-    padding-top: 30px;
     display: inline-block;
-}
-
-
-.advance-summary{
     border: 1px solid #dadfe1;
     border-radius: 5px;
-    display: inline-block;
-
+    height: 460px;
+    width: 370px;
 }
 
-
-.col-md-4{
-
+.title01{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 10px;
 }
-
 
 .title02{
-    font-size: 36px;
-    display: block;
-
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 50px;
 }
-
-
-.title03{
-
-}
-
-
-.plan-price-container{
-
-
-}
-
-
 
 .plan-price{
-
+    color:#264C79;
+    font-size: 45px;   
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-
-.currency{
-    display: inline-block;
-
+.currency-month{
+    font-size: 20px;
 }
-
-
-.currency-span{
-
-}
-
-
-.month{
-    display: inline-block;
-
-}
-
 
 .yealy-paid{
-
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #777777;
+    text-align: center;
 }
-
 
 .stars{
+    list-style: none;
+    padding-left: 0;
+    color: #337ab7;
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.stars-li{
+    margin-bottom: 15px;
+}
+
+.signup-btn-outer{
+    text-align: center;
+    padding-top: 30px;
 
 }
 
+.signup-btn{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    margin-top: 15px
+    margin-bottom: 60px;
+    color: #575757;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    border: 1px solid #CBD4D8;
+    padding: 15px;
+    border-radius: 5px;
+}
 
-.btn{
-
-} 
-
-
-.signup-button{
-
+.signup-btn:hover{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 5px;
 }
